@@ -10,7 +10,7 @@ config();
 // Initialize the OpenAI model with your API key
 const chatModel = new ChatOpenAI({
   apiKey: process.env.OPENAI_API_KEY,
-  model: 'gpt-3.5-turbo', // Specify your model
+
 });
 
 // Define the initial system message
